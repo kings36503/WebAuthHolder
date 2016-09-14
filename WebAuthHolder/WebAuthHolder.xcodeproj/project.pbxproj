@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2A61CB1D892B0F00B3A876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A61CA1D892B0F00B3A876 /* AppDelegate.swift */; };
+		CE2A61CD1D892B0F00B3A876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A61CC1D892B0F00B3A876 /* ViewController.swift */; };
+		CE2A61D01D892B0F00B3A876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2A61CE1D892B0F00B3A876 /* Main.storyboard */; };
+		CE2A61D31D892B0F00B3A876 /* WebAuthHolder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE2A61D11D892B0F00B3A876 /* WebAuthHolder.xcdatamodeld */; };
+		CE2A61D51D892B0F00B3A876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2A61D41D892B0F00B3A876 /* Assets.xcassets */; };
+		CE2A61D81D892B0F00B3A876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2A61D61D892B0F00B3A876 /* LaunchScreen.storyboard */; };
+		CE2A61E31D892B0F00B3A876 /* WebAuthHolderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A61E21D892B0F00B3A876 /* WebAuthHolderTests.swift */; };
+		CE2A61EE1D892B0F00B3A876 /* WebAuthHolderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A61ED1D892B0F00B3A876 /* WebAuthHolderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2A61DF1D892B0F00B3A876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2A61BF1D892B0E00B3A876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2A61C61D892B0E00B3A876;
+			remoteInfo = WebAuthHolder;
+		};
+		CE2A61EA1D892B0F00B3A876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2A61BF1D892B0E00B3A876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2A61C61D892B0E00B3A876;
+			remoteInfo = WebAuthHolder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE2A61C71D892B0F00B3A876 /* WebAuthHolder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebAuthHolder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2A61CA1D892B0F00B3A876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE2A61CC1D892B0F00B3A876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE2A61CF1D892B0F00B3A876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2A61D21D892B0F00B3A876 /* WebAuthHolder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebAuthHolder.xcdatamodel; sourceTree = "<group>"; };
+		CE2A61D41D892B0F00B3A876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2A61D71D892B0F00B3A876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2A61D91D892B0F00B3A876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2A61DE1D892B0F00B3A876 /* WebAuthHolderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebAuthHolderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2A61E21D892B0F00B3A876 /* WebAuthHolderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAuthHolderTests.swift; sourceTree = "<group>"; };
+		CE2A61E41D892B0F00B3A876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2A61E91D892B0F00B3A876 /* WebAuthHolderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebAuthHolderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2A61ED1D892B0F00B3A876 /* WebAuthHolderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAuthHolderUITests.swift; sourceTree = "<group>"; };
+		CE2A61EF1D892B0F00B3A876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2A61C41D892B0E00B3A876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2A61DB1D892B0F00B3A876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2A61E61D892B0F00B3A876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2A61BE1D892B0E00B3A876 = {
+			isa = PBXGroup;
+			children = (
+				CE2A61C91D892B0F00B3A876 /* WebAuthHolder */,
+				CE2A61E11D892B0F00B3A876 /* WebAuthHolderTests */,
+				CE2A61EC1D892B0F00B3A876 /* WebAuthHolderUITests */,
+				CE2A61C81D892B0F00B3A876 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2A61C81D892B0F00B3A876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A61C71D892B0F00B3A876 /* WebAuthHolder.app */,
+				CE2A61DE1D892B0F00B3A876 /* WebAuthHolderTests.xctest */,
+				CE2A61E91D892B0F00B3A876 /* WebAuthHolderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2A61C91D892B0F00B3A876 /* WebAuthHolder */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A61CA1D892B0F00B3A876 /* AppDelegate.swift */,
+				CE2A61CC1D892B0F00B3A876 /* ViewController.swift */,
+				CE2A61CE1D892B0F00B3A876 /* Main.storyboard */,
+				CE2A61D41D892B0F00B3A876 /* Assets.xcassets */,
+				CE2A61D61D892B0F00B3A876 /* LaunchScreen.storyboard */,
+				CE2A61D91D892B0F00B3A876 /* Info.plist */,
+				CE2A61D11D892B0F00B3A876 /* WebAuthHolder.xcdatamodeld */,
+			);
+			path = WebAuthHolder;
+			sourceTree = "<group>";
+		};
+		CE2A61E11D892B0F00B3A876 /* WebAuthHolderTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A61E21D892B0F00B3A876 /* WebAuthHolderTests.swift */,
+				CE2A61E41D892B0F00B3A876 /* Info.plist */,
+			);
+			path = WebAuthHolderTests;
+			sourceTree = "<group>";
+		};
+		CE2A61EC1D892B0F00B3A876 /* WebAuthHolderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A61ED1D892B0F00B3A876 /* WebAuthHolderUITests.swift */,
+				CE2A61EF1D892B0F00B3A876 /* Info.plist */,
+			);
+			path = WebAuthHolderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2A61C61D892B0E00B3A876 /* WebAuthHolder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2A61F21D892B0F00B3A876 /* Build configuration list for PBXNativeTarget "WebAuthHolder" */;
+			buildPhases = (
+				CE2A61C31D892B0E00B3A876 /* Sources */,
+				CE2A61C41D892B0E00B3A876 /* Frameworks */,
+				CE2A61C51D892B0E00B3A876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebAuthHolder;
+			productName = WebAuthHolder;
+			productReference = CE2A61C71D892B0F00B3A876 /* WebAuthHolder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2A61DD1D892B0F00B3A876 /* WebAuthHolderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2A61F51D892B0F00B3A876 /* Build configuration list for PBXNativeTarget "WebAuthHolderTests" */;
+			buildPhases = (
+				CE2A61DA1D892B0F00B3A876 /* Sources */,
+				CE2A61DB1D892B0F00B3A876 /* Frameworks */,
+				CE2A61DC1D892B0F00B3A876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2A61E01D892B0F00B3A876 /* PBXTargetDependency */,
+			);
+			name = WebAuthHolderTests;
+			productName = WebAuthHolderTests;
+			productReference = CE2A61DE1D892B0F00B3A876 /* WebAuthHolderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE2A61E81D892B0F00B3A876 /* WebAuthHolderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2A61F81D892B0F00B3A876 /* Build configuration list for PBXNativeTarget "WebAuthHolderUITests" */;
+			buildPhases = (
+				CE2A61E51D892B0F00B3A876 /* Sources */,
+				CE2A61E61D892B0F00B3A876 /* Frameworks */,
+				CE2A61E71D892B0F00B3A876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2A61EB1D892B0F00B3A876 /* PBXTargetDependency */,
+			);
+			name = WebAuthHolderUITests;
+			productName = WebAuthHolderUITests;
+			productReference = CE2A61E91D892B0F00B3A876 /* WebAuthHolderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2A61BF1D892B0E00B3A876 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "宋学志";
+				TargetAttributes = {
+					CE2A61C61D892B0E00B3A876 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BSU7289GJM;
+						ProvisioningStyle = Automatic;
+					};
+					CE2A61DD1D892B0F00B3A876 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BSU7289GJM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE2A61C61D892B0E00B3A876;
+					};
+					CE2A61E81D892B0F00B3A876 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BSU7289GJM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE2A61C61D892B0E00B3A876;
+					};
+				};
+			};
+			buildConfigurationList = CE2A61C21D892B0E00B3A876 /* Build configuration list for PBXProject "WebAuthHolder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2A61BE1D892B0E00B3A876;
+			productRefGroup = CE2A61C81D892B0F00B3A876 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2A61C61D892B0E00B3A876 /* WebAuthHolder */,
+				CE2A61DD1D892B0F00B3A876 /* WebAuthHolderTests */,
+				CE2A61E81D892B0F00B3A876 /* WebAuthHolderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2A61C51D892B0E00B3A876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2A61D81D892B0F00B3A876 /* LaunchScreen.storyboard in Resources */,
+				CE2A61D51D892B0F00B3A876 /* Assets.xcassets in Resources */,
+				CE2A61D01D892B0F00B3A876 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2A61DC1D892B0F00B3A876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2A61E71D892B0F00B3A876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2A61C31D892B0E00B3A876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2A61D31D892B0F00B3A876 /* WebAuthHolder.xcdatamodeld in Sources */,
+				CE2A61CD1D892B0F00B3A876 /* ViewController.swift in Sources */,
+				CE2A61CB1D892B0F00B3A876 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2A61DA1D892B0F00B3A876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2A61E31D892B0F00B3A876 /* WebAuthHolderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2A61E51D892B0F00B3A876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2A61EE1D892B0F00B3A876 /* WebAuthHolderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2A61E01D892B0F00B3A876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2A61C61D892B0E00B3A876 /* WebAuthHolder */;
+			targetProxy = CE2A61DF1D892B0F00B3A876 /* PBXContainerItemProxy */;
+		};
+		CE2A61EB1D892B0F00B3A876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2A61C61D892B0E00B3A876 /* WebAuthHolder */;
+			targetProxy = CE2A61EA1D892B0F00B3A876 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE2A61CE1D892B0F00B3A876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2A61CF1D892B0F00B3A876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2A61D61D892B0F00B3A876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2A61D71D892B0F00B3A876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2A61F01D892B0F00B3A876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE2A61F11D892B0F00B3A876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2A61F31D892B0F00B3A876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BSU7289GJM;
+				INFOPLIST_FILE = WebAuthHolder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snowsong.WebAuthHolder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE2A61F41D892B0F00B3A876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BSU7289GJM;
+				INFOPLIST_FILE = WebAuthHolder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snowsong.WebAuthHolder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE2A61F61D892B0F00B3A876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BSU7289GJM;
+				INFOPLIST_FILE = WebAuthHolderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snowsong.WebAuthHolderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebAuthHolder.app/WebAuthHolder";
+			};
+			name = Debug;
+		};
+		CE2A61F71D892B0F00B3A876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BSU7289GJM;
+				INFOPLIST_FILE = WebAuthHolderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snowsong.WebAuthHolderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebAuthHolder.app/WebAuthHolder";
+			};
+			name = Release;
+		};
+		CE2A61F91D892B0F00B3A876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BSU7289GJM;
+				INFOPLIST_FILE = WebAuthHolderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snowsong.WebAuthHolderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WebAuthHolder;
+			};
+			name = Debug;
+		};
+		CE2A61FA1D892B0F00B3A876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BSU7289GJM;
+				INFOPLIST_FILE = WebAuthHolderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snowsong.WebAuthHolderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WebAuthHolder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2A61C21D892B0E00B3A876 /* Build configuration list for PBXProject "WebAuthHolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2A61F01D892B0F00B3A876 /* Debug */,
+				CE2A61F11D892B0F00B3A876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2A61F21D892B0F00B3A876 /* Build configuration list for PBXNativeTarget "WebAuthHolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2A61F31D892B0F00B3A876 /* Debug */,
+				CE2A61F41D892B0F00B3A876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE2A61F51D892B0F00B3A876 /* Build configuration list for PBXNativeTarget "WebAuthHolderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2A61F61D892B0F00B3A876 /* Debug */,
+				CE2A61F71D892B0F00B3A876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE2A61F81D892B0F00B3A876 /* Build configuration list for PBXNativeTarget "WebAuthHolderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2A61F91D892B0F00B3A876 /* Debug */,
+				CE2A61FA1D892B0F00B3A876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE2A61D11D892B0F00B3A876 /* WebAuthHolder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE2A61D21D892B0F00B3A876 /* WebAuthHolder.xcdatamodel */,
+			);
+			currentVersion = CE2A61D21D892B0F00B3A876 /* WebAuthHolder.xcdatamodel */;
+			path = WebAuthHolder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE2A61BF1D892B0E00B3A876 /* Project object */;
+}
